@@ -2,4 +2,76 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 text-align:center;}
 body{background-color: rgb(198, 237, 100);}
-.dtw{font-style: italic;font-weight: bold;font-family: Arial, Helvetica, sans-serif;size-adjust: 120%;}
+.dtw{font-style: italic;font-weight: bold;font-family: Arial, Helvetica, sans-serif;size-adjust: 120%;
+text-align: center;}
+.q{font-style: italic; font: 400;font-family: Arial, Helvetica, sans-serif;size: 120%;}
+*{box-sizing: border-box;}
+        
+.keranagkahome {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+    
+.logo {
+    background-color: aqua;
+    display: flex;align-items: center;gap: 25vw;
+    grid-column: span 6 / span 6;
+    grid-row: span 2 / span 2;
+}
+
+.informasiterkini {
+    background-color: aquamarine;
+    grid-column: span 6 / span 6;
+    grid-row-start: 3;
+}
+.produk{ display: flex;
+    flex-direction:row;
+    gap: 1vw;
+    align-items: center;
+    background-color: blueviolet;
+}
+.pemesanan {
+    background-color:aqua ;
+    width: 33vw;
+    height: 100%;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-row-start: 4;
+}
+
+.profile {
+    width: 33vw;
+    height: 100%;
+    background-color: aqua;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 4;
+}
+.nama{
+    background-color: rgb(196, 201, 112);
+    grid-column: span 6 / span 6;
+    grid-row-start: 3;
+    padding-bottom: 2vw;
+}
+
+.customerService {
+    width: 33vw;
+    height: 100%;
+    background-color: aqua;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    grid-column-start: 5;
+    grid-row-start: 4;
+}
+
+.penutup {
+    background-color: aqua;
+    grid-column: span 6 / span 6;
+    grid-row-start: 6;
+}
+.apes{
+    background-color: aquamarine;width: 33vw;height: 8vw;
+}
+        
